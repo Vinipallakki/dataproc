@@ -62,3 +62,5 @@ print("Data successfully written to BigQuery!")
 spark.stop()
 
 
+#gcloud dataproc jobs submit pyspark gs://vini123654789/main.py     --cluster=my-dataproc-cluster     --region=us-central1     --properties spark.executor.memory=4g,spark.executor.cores=2     --jars gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar
+
